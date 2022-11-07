@@ -1,58 +1,31 @@
 body{
     font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.topbar{
-    display: flex;
-    justify-content: space-between;
-    padding: 12px 0;
-    margin-left: 75px;
-}
-
-.awesome{
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-    width: 70%;
-}
-
-.awesome img{
-    height: 250px;
-
+    margin: 0;
+    padding: 0;
 }
 
 header{
-    background-color: #1F2937;
-    color: #E5E7EB;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+
 }
 
 .logo{
     font-size: 24px;
-    color: #F9FAF8
+    color: #f9faf8;
 }
 
-.awesome h1{
-    font-size: 48px;
-    font-weight: bolder;
-    color: #F9FAF8;
-}
-
-a{
+.links a{
     text-decoration: none;
+    padding: 0 12px;
+    font-size: 18px;
     color: #E5E7EB;
-    margin-right: 75px; 
 }
 
-button{
-    background: #3882F6;
-    border-radius: 7px;
-    border: none;
-    color:#E5E7EB;
-    padding: 12px;
-    margin: 12px;
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/milad-fakurian-dKd3p6gha-c-unsplash.jpg");
+    height: 200px;
+    width: 200px;
 }
-
-
-/* .one{
-    flex-wrap: wrap;
-} */
